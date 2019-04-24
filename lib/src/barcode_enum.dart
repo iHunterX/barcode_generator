@@ -1,4 +1,4 @@
-part of barcode_generator_flutter;
+part of barcode_generator;
 
 enum BarCodeType {
   /** Aztec 2D barcode format. */

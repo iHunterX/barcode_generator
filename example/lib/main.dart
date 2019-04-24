@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "package:barcode_generator/barcode_generator_flutter.dart";
+import 'package:barcode_generator/barcode_generator.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {

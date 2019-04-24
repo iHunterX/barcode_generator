@@ -1,5 +1,5 @@
-// import 'package:flutter/services.dart';
-part of barcode_generator_flutter;
+
+part of barcode_generator;
 
 class BarcodeGeneratorController {
   @visibleForTesting

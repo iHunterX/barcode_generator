@@ -1,4 +1,4 @@
-part of barcode_generator_flutter;
+part of barcode_generator;
 
 typedef void BarcodeCreatedCallback(BarcodeGeneratorController controller);
 
