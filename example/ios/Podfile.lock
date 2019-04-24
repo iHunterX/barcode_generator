@@ -1,7 +1,7 @@
 PODS:
   - barcode_generator (0.0.1):
     - Flutter
-    - ZXingObjC (~> 3.6.4)
+    - ZXingObjC
   - Flutter (1.0.0)
   - ZXingObjC (3.6.5):
     - ZXingObjC/All (= 3.6.5)
@@ -22,10 +22,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/flutter/ios"
 
 SPEC CHECKSUMS:
-  barcode_generator: bfc7fc35a8b9a421f756d066e38c6020743d3c15
+  barcode_generator: 71ccb42218ae56922038048a9efd3936e0a5650c
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+PODFILE CHECKSUM: f0f73ee6fbcf1125e38d6502e5a6c89a3f8e66a0
 
 COCOAPODS: 1.6.1
