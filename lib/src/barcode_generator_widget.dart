@@ -57,7 +57,7 @@ class _BarcodeGeneratorState extends State<BarcodeGenerator> {
         gestureRecognizers: null,
       );
     } else {
-      childView =  Text(
+      childView = Text(
           '$defaultTargetPlatform is not yet supported by the iHX-Barcode plugin');
     }
 

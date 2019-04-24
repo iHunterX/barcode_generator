@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:barcode_generator/barcode_generator.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
@@ -22,8 +23,8 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Container(
-            width: 500,
-            height: 500,
+              width: 500,
+              height: 500,
               color: Colors.black26,
               child: BarcodeGenerator(
                 backgroundColor: Colors.red,
