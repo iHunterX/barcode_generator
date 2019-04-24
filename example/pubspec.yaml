@@ -1,4 +1,4 @@
-name: barcode_generator_example
+name: ihx_barcode_generator
 description: Demonstrates how to use the barcode_generator plugin.
 publish_to: 'none'
 

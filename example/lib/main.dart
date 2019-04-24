@@ -22,10 +22,13 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Container(
+            width: 500,
+            height: 500,
               color: Colors.black26,
               child: BarcodeGenerator(
-                fromString: "9999999",
-                codeType: BarCodeType.kBarcodeFormatDataMatrix,
+                backgroundColor: Colors.red,
+                fromString: "9999999a",
+                codeType: BarCodeType.kBarcodeFormatCode128,
               )),
         ),
       ),

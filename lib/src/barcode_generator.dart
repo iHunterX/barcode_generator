@@ -44,6 +44,7 @@ class _BarcodeGeneratorState extends State<BarcodeGenerator> {
     if (defaultTargetPlatform == TargetPlatform.android) {
       childView = AndroidView(
         viewType: 'ihx.flutter.io/barcode_view',
+        onPlatformViewCreated: onPlatformViewCreated,
         creationParams: creationParams,
         creationParamsCodec: const StandardMessageCodec(),
       );

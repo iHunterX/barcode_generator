@@ -1,8 +1,8 @@
 name: barcode_generator
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: ihx
+homepage: none
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

@@ -6,8 +6,6 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:meta/meta.dart';
-
 
 part 'src/barcode_enum.dart';
 part 'src/barcode_generator.dart';
