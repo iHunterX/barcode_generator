@@ -13,7 +13,7 @@ BarcodeGenerator(
                 witdth: 300,
                 height: 200,
                 backgroundColor: Colors.red,
-                fromString: "9999999a",
+                fromString: "xxxxxxxx",
                 codeType: BarCodeType.kBarcodeFormatCode128,
               )
 ```
