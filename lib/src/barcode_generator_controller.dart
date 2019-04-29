@@ -1,4 +1,3 @@
-
 part of barcode_generator;
 
 class BarcodeGeneratorController {
