@@ -39,7 +39,6 @@ If you've created the project using flutter create -i swift [projectName] you ar
 
 Make sure you have !use_frameworks in the Runner block, in ios/Podfile
 
-Make sure you have Swift version 4.2 selected in you XCode -> Build Settings
 
 Do flutter clean
 
