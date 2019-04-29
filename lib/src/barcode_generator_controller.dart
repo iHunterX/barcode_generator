@@ -10,6 +10,7 @@ class BarcodeGeneratorController {
     this.channel,
     this._barcodeState,
   ) : assert(channel != null) {
+    debugPrint(_barcodeState.creationParams.toString());
     channel.setMethodCallHandler(_handleMethodCall);
   }
   static Future<BarcodeGeneratorController> init(
@@ -27,16 +28,13 @@ class BarcodeGeneratorController {
   }
 
   Future<dynamic> _handleMethodCall(MethodCall call) async {
-    // debugPrint(call.method);
-    // debugPrint(call.arguments.toString());
-    // switch (call.method) {
-    //   case 'generatedBarcode':
-    //     // if (_barcodeState.widget.onBarcodeGenerated != null) {
-    //     //   _barcodeState.widget.onBarcodeGenerated();
-    //     // }
-    //     break;
-    //   default:
-    //     throw MissingPluginException();
-    // }
+    debugPrint(call.method);
+    debugPrint(call.arguments.toString());
+    switch (call.method) {
+      case 'generatedBarcode':
+        break;
+      default:
+        throw MissingPluginException();
+    }
   }
 }
