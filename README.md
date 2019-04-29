@@ -10,10 +10,12 @@ Check out the example directory for a sample app using Barcode generator.
 
 ```dart
 BarcodeGenerator(
-            backgroundColor: Colors.red,
-            fromString: "xxxxxxx",
-            codeType: BarCodeType.kBarcodeFormatCode128,
-    )
+                witdth: 300,
+                height: 200,
+                backgroundColor: Colors.red,
+                fromString: "9999999a",
+                codeType: BarCodeType.kBarcodeFormatCode128,
+              )
 ```
 
 ## iOS Integration
