@@ -27,6 +27,24 @@ Opt-in to the embedded views preview by adding a boolean property to the app's `
     <true/>
 ```
 
+If you are getting error like this:
+
+To opt into those targets generating module maps (which is necessary to import them from Swift when building as
+    static libraries), you may set `use_modular_headers!` globally in your Podfile, or specify `:modular_headers => true` for particular dependencies.
+
+Make sure you followed those steps:
+
+Create a Bridging Header.
+If you've created the project using flutter create -i swift [projectName] you are all set. If not, you can enable Swift support by opening the project with XCode, then choose File -> New -> File -> Swift File. XCode will ask you if you wish to create Bridging Header, click yes.
+
+Make sure you have !use_frameworks in the Runner block, in ios/Podfile
+
+Make sure you have Swift version 4.2 selected in you XCode -> Build Settings
+
+Do flutter clean
+
+Go to your ios folder, delete Podfile.lock and Pods folder and then execute pod install --repo-update
+
 ### Features
 
 - [x] Generate barcode with multiple formats
