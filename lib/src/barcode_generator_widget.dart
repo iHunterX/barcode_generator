@@ -7,7 +7,7 @@ class BarcodeGenerator extends StatefulWidget {
 
   final double height;
 
-  final double witdth;
+  final double width;
 
   final BarCodeType codeType;
 
@@ -19,7 +19,7 @@ class BarcodeGenerator extends StatefulWidget {
 
   const BarcodeGenerator(
       {@required this.fromString,
-      this.witdth = 100,
+      this.width = 100,
       this.height = 200,
       this.codeType,
       this.backgroundColor});
@@ -62,7 +62,7 @@ class _BarcodeGeneratorState extends State<BarcodeGenerator> {
     }
 
     return Container(
-      width: widget.witdth,
+      width: widget.width,
       height: widget.height,
       color: widget.backgroundColor,
       child: childView,
