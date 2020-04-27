@@ -10,7 +10,7 @@ Check out the example directory for a sample app using Barcode generator.
 
 ```dart
 BarcodeGenerator(
-                witdth: 300,
+                width: 300,
                 height: 200,
                 backgroundColor: Colors.red,
                 fromString: "xxxxxxxx",
