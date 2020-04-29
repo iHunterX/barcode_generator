@@ -1,6 +1,6 @@
 name: barcode_generator
 description: A flutter package for barcode generator base on ZXing support multiple fortmats with PlatformView
-version: 0.2.7
+version: 0.2.8
 homepage: https://github.com/iHunterX/barcode_generator
 
 environment:
